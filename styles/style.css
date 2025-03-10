@@ -6,3 +6,78 @@ Green: #00B172
 White: #FFF
 
 */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 30px;
+}
+
+header img {
+    width: 150px;
+}
+
+header nav a {
+    color: #1A1A1A;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+#landing {
+    position: flex;
+    color: white;
+}
+
+#landing img {
+    width: 100%;
+    order: -1;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+}
+
+.section-title {
+    display: inline-block;
+    font-weight: bolder;
+    border-bottom: #00B172 solid;
+    font-size: larger;
+}
+
+#articles {
+    display: flex;
+    justify-content: space-around;
+}
+
+#articles article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+
+#articles article .title {
+    font-weight: bold;
+    color: #00B172;
+    font-size: large;
+}
+
+#articles article img {
+    width: 100px;
+    height: 80px;
+}
+
+#ye {
+    display: flex;
+    background: #00B172;
+    color: white;
+}
